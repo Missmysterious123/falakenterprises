@@ -64,35 +64,34 @@ export function ServicesSection() {
             From a single room to an entire property, we offer a wide range of services to meet your needs.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => {
             const image = PlaceHolderImages.find(p => p.id === service.imageId);
             return (
               <Card
                 key={service.title}
-                className="group overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 animate-fade-in-up"
+                className="group overflow-hidden rounded-lg shadow-md transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 animate-fade-in-up"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="relative h-48 w-full">
+                <div className="relative h-56 w-full overflow-hidden">
                   {image && (
                      <Image
                         src={image.imageUrl}
                         alt={service.title}
                         fill
-                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        className="object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
                         data-ai-hint={image.imageHint}
                       />
                   )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-100 transition-opacity duration-500 group-hover:opacity-75" />
                 </div>
-                <CardHeader className="flex flex-row items-start gap-4">
-                  {service.icon}
-                  <div className="grid gap-1">
-                    <CardTitle className="font-headline text-xl">{service.title}</CardTitle>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{service.description}</p>
-                </CardContent>
+                <div className="p-6 bg-background">
+                    <div className="flex items-center gap-4 mb-3">
+                        {service.icon}
+                        <CardTitle className="font-headline text-xl text-primary">{service.title}</CardTitle>
+                    </div>
+                    <p className="text-muted-foreground">{service.description}</p>
+                </div>
               </Card>
             );
           })}

@@ -1,6 +1,13 @@
 import { Paintbrush, Phone, Instagram, Youtube, Facebook, Linkedin } from 'lucide-react';
 import Link from 'next/link';
 
+const WhatsAppIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+    </svg>
+);
+
+
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -13,7 +20,7 @@ export function Footer() {
             </span>
           </Link>
           <p className="max-w-md text-center text-sm text-primary-foreground/80 md:text-left">
-            Bringing color and life to your spaces with precision and passion.
+            Bringing color and life to your spaces with precision and passion. Your trusted partner for painting in Mumbai.
           </p>
         </div>
         <div className="flex flex-col items-center gap-4 md:items-start">
@@ -39,8 +46,8 @@ export function Footer() {
               <span>+91 99707 53101</span>
             </a>
             <a href="https://wa.me/919970753101" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 transition-colors hover:text-accent">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" /></svg>
-              <span>WhatsApp</span>
+                <WhatsAppIcon />
+                <span>WhatsApp</span>
             </a>
         </div>
       </div>
