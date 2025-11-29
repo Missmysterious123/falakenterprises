@@ -6,9 +6,9 @@ import { Toaster } from '@/components/ui/toaster';
 import { WhatsappButton } from '@/components/whatsapp-button';
 
 export const metadata: Metadata = {
-  title: 'Top Painters & Interior Colour Services in Mumbai | Falak Enterprises',
-  description: 'Professional painting and interior services in Mumbai. Falak Enterprises offers expert interior and exterior painting, wood polishing, and waterproofing. Get a free quote today!',
-  keywords: 'painters in Mumbai, interior colour in Mumbai, house painting Mumbai, office painting, waterproofing Mumbai, wood polish, Falak Enterprises',
+  title: 'Paints in Mumbai | Top Painters & Interior Colour Services | Falak Enterprises',
+  description: 'Looking for paints in Mumbai? Falak Enterprises offers professional painting and interior colour services. We are experts in house and office painting, wood polishing, and waterproofing. Contact us for a free quote!',
+  keywords: 'paints in Mumbai, painters in Mumbai, interior colour Mumbai, house painting Mumbai, office painting Mumbai, waterproofing services Mumbai, wood polish Mumbai, Falak Enterprises, painting contractors Mumbai',
 
 };
 
