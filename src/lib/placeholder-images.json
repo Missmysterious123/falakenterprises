@@ -1,3 +1,82 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A beautifully painted modern living room interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsaXZpbmclMjByb29tfGVufDB8fHx8MTc2NDQxNjAxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room"
+    },
+    {
+      "id": "interior-painting",
+      "description": "A vibrant and freshly painted room interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb29tJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzY0NDI0ODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "room interior"
+    },
+    {
+      "id": "exterior-painting",
+      "description": "The exterior of a modern house being painted.",
+      "imageUrl": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3VzZSUyMGV4dGVyaW9yfGVufDB8fHx8MTc2NDMzMDcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "house exterior"
+    },
+    {
+      "id": "wood-polish",
+      "description": "A skilled worker polishing a wooden door.",
+      "imageUrl": "https://images.unsplash.com/photo-1653817913970-cd37a2cfff25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b29kJTIwcG9saXNofGVufDB8fHx8MTc2NDQyNDg0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wood polish"
+    },
+    {
+      "id": "texture-painting",
+      "description": "A close-up of a wall with beautiful texture paint.",
+      "imageUrl": "https://images.unsplash.com/photo-1717851425482-bdb309381a84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZXh0dXJlJTIwd2FsbHxlbnwwfHx8fDE3NjQzMDE1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "texture wall"
+    },
+    {
+      "id": "waterproofing",
+      "description": "Waterproofing solution being applied to a rooftop.",
+      "imageUrl": "https://images.unsplash.com/photo-1572226372001-f4880374b677?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb29mdG9wJTIwd2F0ZXJwcm9vZnxlbnwwfHx8fDE3NjQ0MjQ4NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rooftop waterproof"
+    },
+    {
+      "id": "pop-installation",
+      "description": "An elegant false ceiling made of POP.",
+      "imageUrl": "https://images.unsplash.com/photo-1739172205127-845764945e75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYWxzZSUyMGNlaWxpbmd8ZW58MHx8fHwxNzY0NDI0ODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "false ceiling"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Completed project 1: A modern living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1642632013739-bd4457c630d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2Rlcm4lMjBsaXZpbmd8ZW58MHx8fHwxNzY0MzA2MDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern living"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Completed project 2: An elegant bedroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1763478958775-ebb6733dd058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVnYW50JTIwYmVkcm9vbXxlbnwwfHx8fDE3NjQ0MjQ4NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elegant bedroom"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Completed project 3: A minimalist office space.",
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBzcGFjZXxlbnwwfHx8fDE3NjQ0MTgxODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office space"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Completed project 4: A stylish kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1758565811151-c3faa3a09c9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R5bGlzaCUyMGtpdGNoZW58ZW58MHx8fHwxNzY0NDI0ODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stylish kitchen"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Completed project 5: A freshly painted house exterior.",
+      "imageUrl": "https://images.unsplash.com/photo-1560184897-ae75f418493e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxob3VzZSUyMGV4dGVyaW9yfGVufDB8fHx8MTc2NDMzMDcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "house exterior"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Completed project 6: A commercial building facade.",
+      "imageUrl": "https://images.unsplash.com/photo-1621831337128-35676ca30868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21tZXJjaWFsJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzY0NDA1NDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "commercial building"
+    }
+  ]
 }
