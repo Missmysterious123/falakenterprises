@@ -19,9 +19,9 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 md:items-start">
           <h3 className="font-headline text-lg font-semibold">Contact Us</h3>
           <div className="space-y-2 text-center md:text-left">
-            <a href="tel:+919876543210" className="flex items-center gap-2 transition-colors hover:text-accent">
+            <a href="tel:+919970753101" className="flex items-center gap-2 transition-colors hover:text-accent">
               <Phone className="h-4 w-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 99707 53101</span>
             </a>
             <a href="mailto:info@falakenterprises.com" className="flex items-center gap-2 transition-colors hover:text-accent">
               <Mail className="h-4 w-4" />
@@ -35,8 +35,7 @@ export function Footer() {
             <Link href="#about" className="block transition-colors hover:text-accent">About</Link>
             <Link href="#services" className="block transition-colors hover:text-accent">Services</Link>
             <Link href="#gallery" className="block transition-colors hover:text-accent">Gallery</Link>
-            <Link href="#contact" className="block transition-colors hover:text-accent">Contact</Link>
-          </nav>
+            <Link href="#contact" className="block transition-colors hover:text-accent">Contact</Link>          </nav>
         </div>
       </div>
       <div className="border-t border-primary-foreground/10 bg-primary/50">

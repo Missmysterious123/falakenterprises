@@ -91,7 +91,7 @@ export function ContactSection() {
                       <FormItem>
                         <FormLabel>Phone Number (Optional)</FormLabel>
                         <FormControl>
-                          <Input placeholder="+91 98765 43210" {...field} />
+                          <Input placeholder="+91 99707 53101" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -125,14 +125,14 @@ export function ContactSection() {
                   <MapPin className="mt-1 h-6 w-6 flex-shrink-0 text-accent" />
                   <div>
                     <h4 className="font-semibold">Address</h4>
-                    <p className="text-muted-foreground">123 Painting Lane, Art City, State, 12345</p>
+                    <p className="text-muted-foreground">134/12 Krishna Master Chawl, Nariman Lane, near Ram Mandir, Mumbai 400070</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 transition-transform duration-300 hover:scale-105">
                   <Phone className="mt-1 h-6 w-6 flex-shrink-0 text-accent" />
                   <div>
                     <h4 className="font-semibold">Phone</h4>
-                    <p className="text-muted-foreground">+91 98765 43210</p>
+                    <p className="text-muted-foreground">+91 99707 53101</p>
                   </div>
                 </div>
                  <div className="flex items-start gap-4 transition-transform duration-300 hover:scale-105">
