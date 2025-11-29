@@ -8,8 +8,9 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { useToast } from '@/hooks/use-toast';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Instagram, Youtube, Facebook, Linkedin } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
+import Link from 'next/link';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -135,14 +136,16 @@ export function ContactSection() {
                     <p className="text-muted-foreground">+91 99707 53101</p>
                   </div>
                 </div>
-                 <div className="flex items-start gap-4 transition-transform duration-300 hover:scale-105">
-                  <Mail className="mt-1 h-6 w-6 flex-shrink-0 text-accent" />
-                  <div>
-                    <h4 className="font-semibold">Email</h4>
-                    <p className="text-muted-foreground">info@falakenterprises.com</p>
-                  </div>
-                </div>
               </div>
+            </div>
+             <div className="space-y-4">
+              <h3 className="font-headline text-2xl font-bold">Follow Us</h3>
+                <div className="flex gap-4">
+                    <Link href="#" className="text-muted-foreground transition-colors hover:text-accent"><Instagram className="h-6 w-6" /></Link>
+                    <Link href="#" className="text-muted-foreground transition-colors hover:text-accent"><Youtube className="h-6 w-6" /></Link>
+                    <Link href="#" className="text-muted-foreground transition-colors hover:text-accent"><Facebook className="h-6 w-6" /></Link>
+                    <Link href="#" className="text-muted-foreground transition-colors hover:text-accent"><Linkedin className="h-6 w-6" /></Link>
+                </div>
             </div>
             <div className="aspect-video w-full overflow-hidden rounded-lg shadow-lg">
                 <div className="h-full w-full bg-secondary flex items-center justify-center">
