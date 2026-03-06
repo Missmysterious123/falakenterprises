@@ -16,7 +16,7 @@ export function Footer() {
           <Link href="#home" className="flex items-center gap-2" prefetch={false}>
             <Paintbrush className="h-8 w-8" />
             <span className="font-headline text-2xl font-bold">
-              Falak Enterprises
+              Apna Painters
             </span>
           </Link>
           <p className="max-w-md text-center text-sm text-primary-foreground/80 md:text-left">
@@ -54,7 +54,7 @@ export function Footer() {
       <div className="border-t border-primary-foreground/10 bg-primary/50">
         <div className="container mx-auto flex h-16 items-center justify-center px-4 md:px-6">
           <p className="text-sm text-primary-foreground/60">
-            &copy; {new Date().getFullYear()} Falak Enterprises. All rights reserved.
+            &copy; {new Date().getFullYear()} Apna Painters. All rights reserved.
           </p>
         </div>
       </div>

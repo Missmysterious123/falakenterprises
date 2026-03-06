@@ -26,7 +26,7 @@ export function HeroSection() {
               Transforming Spaces, One Brushstroke at a Time
             </h1>
             <p className="mx-auto max-w-[700px] text-lg text-primary-foreground/90 md:text-xl">
-              Falak Enterprises delivers premium painting and interior solutions with unmatched quality and craftsmanship.
+              Apna Painters delivers premium painting and interior solutions with unmatched quality and craftsmanship.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
               <Link href="#services">

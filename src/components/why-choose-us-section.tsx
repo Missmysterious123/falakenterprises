@@ -28,7 +28,7 @@ export function WhyChooseUsSection() {
             Our Advantage
           </div>
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
-            Why Choose Falak Enterprises?
+            Why Choose Apna Painters?
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
             We are committed to excellence in every aspect of our work, from initial consultation to the final finishing touches.

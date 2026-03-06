@@ -39,7 +39,7 @@ export function Header() {
         <Link href="#home" className="flex items-center gap-2" prefetch={false}>
           <Paintbrush className="h-8 w-8 text-primary" />
           <span className="font-headline text-2xl font-bold text-primary">
-            Falak Enterprises
+            Apna Painters
           </span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -67,7 +67,7 @@ export function Header() {
                 <Link href="#home" className="flex items-center gap-2" prefetch={false}>
                   <Paintbrush className="h-6 w-6 text-primary" />
                   <span className="font-headline text-xl font-bold text-primary">
-                    Falak
+                    Apna
                   </span>
                 </Link>
                 <Button variant="ghost" size="icon" onClick={() => setOpen(false)}>

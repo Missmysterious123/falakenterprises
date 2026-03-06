@@ -31,7 +31,7 @@ export function IntroductionSection() {
             Your Trusted Partner in Painting & Interiors
           </h2>
           <p className="max-w-[600px] text-muted-foreground md:text-lg">
-            At Falak Enterprises, we are dedicated to providing exceptional painting and interior design services. Our mission is to transform your residential or commercial spaces with our expertise, attention to detail, and passion for perfection. We believe in building lasting relationships with our clients through reliability and outstanding results.
+            At Apna Painters, we are dedicated to providing exceptional painting and interior design services. Our mission is to transform your residential or commercial spaces with our expertise, attention to detail, and passion for perfection. We believe in building lasting relationships with our clients through reliability and outstanding results.
           </p>
         </div>
         <div className="grid gap-6">
