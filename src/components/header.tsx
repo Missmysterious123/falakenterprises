@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -67,7 +66,7 @@ export function Header() {
                 <Link href="#home" className="flex items-center gap-2" prefetch={false}>
                   <Paintbrush className="h-6 w-6 text-primary" />
                   <span className="font-headline text-xl font-bold text-primary">
-                    Apna
+                    Apna Painters
                   </span>
                 </Link>
                 <Button variant="ghost" size="icon" onClick={() => setOpen(false)}>
